@@ -50,4 +50,28 @@ body {
     text-align: right;
     margin-bottom: 20px;
   }
+
+  .logout {
+    max-width: 370px;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .logout button{
+    background-color: #5A67D8;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 12px;
+    padding: 12px 8px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    display: block;
+  }
+  
+  .logout button:hover {
+    background-color: #434190;
+  }
+
   
